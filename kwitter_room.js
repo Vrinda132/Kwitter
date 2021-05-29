@@ -58,4 +58,9 @@ window.location = "kwitter_page.html";
 
 }
 
+function logout() {
+  localStorage.removeItem("user_name");
+  localStorage.removeItem("room_name");
+  window.location = "index.html";
+}
 
